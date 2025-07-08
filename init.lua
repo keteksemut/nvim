@@ -16,10 +16,10 @@ rtp:prepend(lazypath)
 
 require('lazy').setup({
 	{ import = 'plugins.treesitter'},
---	{ import = 'plugins.color'},
---	{ import = 'plugins.bufferline'},
---	{ import = 'plugins.lualine'},
---	{ import = 'plugins.neo-tree'},
+	{ import = 'plugins.neotree'},
+	{ import = 'plugins.color'},
+	{ import = 'plugins.bufferline'},
+	{ import = 'plugins.lualine'},
 --	{ import = 'plugins.telescope'},
 --	{ import = 'plugins.lsp'},
 --	{ import = 'plugins.'},
