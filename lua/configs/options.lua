@@ -8,6 +8,10 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+vim.g.have_nerd_font = true
+vim.wo.cursorline = true
+vim.cmd("highlight CursorlineNr guifg=auto gui=bold")
+
 
 
 -- Line Numbers:
